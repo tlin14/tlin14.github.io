@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #fdfdfb;
+  color: #1a1a1a;
+  font-family: "Iowan Old Style", "Charter", "Georgia", "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 72px 24px 96px;
+}
+
+header {
+  margin-bottom: 36px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  letter-spacing: -0.01em;
+}
+
+.meta {
+  margin: 0;
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 32px 0 8px;
+  letter-spacing: -0.005em;
+}
+
+p {
+  margin: 0 0 16px;
+}
+
+ul {
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+
+li {
+  margin: 4px 0;
+}
+
+a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #c4c4c0;
+  text-underline-offset: 2px;
+  transition: text-decoration-color 120ms ease;
+}
+
+a:hover {
+  text-decoration-color: #1a1a1a;
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+section {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  main { padding: 48px 20px 72px; }
+  body { font-size: 16px; }
+}
